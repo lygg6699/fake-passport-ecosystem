@@ -6,7 +6,7 @@
     "module": "esnext",
     "rootDir": "./src",
     "moduleResolution": "node",
-    "types": ["node"],
+    "types": ["node", "@types/node"], // Add "@types/node" to the "types" array
     "resolveJsonModule": true,
     "outDir": "./build/",
     "esModuleInterop": true,
